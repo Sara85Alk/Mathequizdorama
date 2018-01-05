@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackboard_game_02"
+    tools:context="com.example.xxx.mathequizdorama.TenthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:padding="@dimen/thirty_two_dp"
+            android:text=""
+            android:textColor="#bcece0"
+            android:textSize="@dimen/twenty_sp_text" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two_dp"
+            android:layout_marginEnd="@dimen/sixteen_dp"
+            android:layout_marginStart="@dimen/sixteen_dp"
+            android:background="#f652a0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/sixteen_dp"
+            android:fontFamily="serif"
+            android:padding="@dimen/sixteen_dp"
+            android:text="@string/third_guideline"
+            android:textColor="#bcece0"
+            android:textSize="@dimen/sixteen_sp_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two_dp"
+            android:layout_marginEnd="@dimen/sixteen_dp"
+            android:layout_marginStart="@dimen/sixteen_dp"
+            android:background="#f652a0" />
+
+        <TextView
+            android:id="@+id/third_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:padding="@dimen/thirty_two_dp"
+            android:text="@string/touch_me_to_begin"
+            android:textColor="#bcece0"
+            android:textSize="@dimen/twenty_sp_text" />
+
+
+    </LinearLayout>
+
+</ScrollView>

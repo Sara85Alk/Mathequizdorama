@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackboard_game_02"
+    tools:context="com.example.xxx.mathequizdorama.FirstActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/twenty_four_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/forty_dp"
+            android:fontFamily="serif"
+            android:padding="@dimen/sixteen_dp"
+            android:text="@string/please_state_your_name"
+            android:textColor="#bcece0"
+            android:textSize="@dimen/twenty_sp_text" />
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/sixteen_dp"
+            android:layout_marginStart="@dimen/sixteen_dp"
+            android:fontFamily="serif"
+            android:hint="@string/user_name"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/sixteen_dp"
+            android:textColor="#bcece0"
+            android:textColorHint="#bcece0" />
+
+
+        <Button
+            android:id="@+id/first_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/forty_dp"
+            android:background="#36eee0"
+            android:fontFamily="serif"
+            android:onClick="startGame"
+            android:padding="@dimen/twelve_dp"
+            android:text="@string/lets_start" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

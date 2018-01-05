@@ -1,0 +1,135 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <!-- App name [CHAR_LIMIT = 20] -->
+    <string name="app_name">MathQuiz</string>
+
+    <!--App name as appears in the opening screen. -->
+    <string name="app_name_opening">Math\nquiz</string>
+
+    <!-- Touch the board to begin guideline in the opening screen. -->
+    <string name="touch_the_board">(Touch the board to begin)</string>
+
+    <!-- Opening background description. -->
+    <string name="opening_background">Opening Background</string>
+
+    <!-- State your name headline. -->
+    <string name="please_state_your_name">Please state your name.</string>
+
+    <!--Let's start. -->
+    <string name="lets_start">Let\'s start!</string>
+
+
+    <!-- First guideline for the first three questions. [CHAR_LIMIT = 100] -->
+    <string name="first_guideline">Write the surnames of the people asked in the first three questions.</string>
+
+    <!-- Touch me to begin TextView in the guidelines. -->
+    <string name="touch_me_to_begin">Touch me to begin!</string>
+
+    <!-- Submit for the quiz buttons. -->
+    <string name="submit">Submit</string>
+
+    <!-- First question. [CHAR LIMIT = 100] -->
+    <string name="question_1">Question 1:\nWho was called The Prince of Mathematics?</string>
+
+    <!--Hint for the first answer. [CHAR LIMIT = 20] -->
+    <string name="answer_question_1">Answer to Question 1</string>
+
+    <!--Next question in the quiz. -->
+    <string name="next_question">Next question</string>
+
+    <!-- Second question. [CHAR LIMIT = 100] -->
+    <string name="question_2">Question 2. \nWho stunned the Mathematical community in 2003 for proving Poincaré\'s conjecture?</string>
+
+    <!--Hint for the second answer. [CHAR LIMIT = 20] -->
+    <string name="answer_question_2">Answer to Question 2</string>
+
+    <!-- Third question. [CHAR LIMIT = 100] -->
+    <string name="question_3">Question 3. \nCalculus was invented by Isaac Newton and who else?</string>
+
+    <!--Hint for the third answer. [CHAR LIMIT = 20] -->
+    <string name="answer_question_3">Answer to Question 3</string>
+
+    <!-- Second guideline for the next three questions. [CHAR_LIMIT = 100] -->
+    <string name="second_guideline">In the following three questions multiple answers might be right. Choose wisely!</string>
+
+    <!-- Fourth question. [CHAR LIMIT = 100] -->
+    <string name="question_4">Question 4. \nThe area of a triangle can be found by the formula:</string>
+
+    <!-- Fifth question. [CHAR LIMIT = 100] -->
+    <string name="question_5">Question 5. \nWhich of the following is/are trigonometric ratios?</string>
+
+    <!-- Sixth question. [CHAR LIMIT = 100] -->
+    <string name="question_6">Question 6. \nWhich of the following is undefined?"</string>
+
+    <!-- Third guideline for the next three questions. [CHAR_LIMIT = 100] -->
+    <string name="third_guideline">In the following three questions there\'s only one right answer. Be careful!</string>
+
+    <!-- Seventh question. [CHAR LIMIT = 100] -->
+    <string name="question_7">Question 7. \nThe sum of the angles of a triangle is:</string>
+
+    <!-- Eighth question. [CHAR LIMIT = 100] -->
+    <string name="question_8">Question 8. \nA possible domain for the function f(x) = lnx can be:</string>
+
+    <!-- Ninth question. [CHAR LIMIT = 100] -->
+    <string name="question_9">Question 9. \nThe expression 5x - 30 can be factorised to:</string>
+
+    <!-- First answer in CheckBox in question 4. -->
+    <string name="bh_2">(b×h)/2</string>
+
+    <!-- Second answer in CheckBox in question 4. -->
+    <string name="abp">a×b×π</string>
+
+    <!-- Third answer in CheckBox in question 4. -->
+    <string name="bh">b×h</string>
+
+    <!-- Fourth answer in CheckBox in question 4. -->
+    <string name="absinc_2">(a×b×(sinC))/2</string>
+
+    <!-- First answer in CheckBox in question 5. -->
+    <string name="tan_">tanθ</string>
+
+    <!-- Second answer in CheckBox in question 5. -->
+    <string name="sin_">sinθ</string>
+
+    <!-- Third answer in CheckBox in question 5. -->
+    <string name="log_">logθ</string>
+
+    <!-- Fourth answer in CheckBox in question 5. -->
+    <string name="sec_">secθ</string>
+
+    <!-- First answer in CheckBox in question 6. -->
+    <string name="log1">log1"</string>
+
+    <!-- Second answer in CheckBox in question 6. -->
+    <string name="sinp">sinπ</string>
+
+    <!-- Third answer in CheckBox in question 6. -->
+    <string name="cotp2">cot(π/2)</string>
+
+    <!-- Fourth answer in CheckBox in question 6. -->
+    <string name="tanp2">tan(π/2)</string>
+
+    <!--Get your result. -->
+    <string name="get_your_result">Get your result!</string>
+
+    <!--Wanna start over?Hit me! to restart the game. -->
+    <string name="wanna_start_over">Wanna start over? Hit me!</string>
+
+    <!-- Your score is -->
+    <string name="your_score_is">Your score is </string>
+
+    <!-- your final result is -->
+    <string name="your_final_result_is"> your final result is </string>
+
+    <!-- your score is -->
+    <string name="your_score_is_2"> your score is </string>
+
+    <!-- Hello to user. -->
+    <string name="hello">Hello</string>
+
+    <!-- Name EditText [NO LIMIT]-->
+    <string name="user_name">Name <xliff:g example="Tom" id="Name"></xliff:g> </string>
+
+
+</resources>
